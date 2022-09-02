@@ -1,7 +1,9 @@
 export function useVersion() {
-	const version = '2.3';
+  const versions = ['main', '2.2']
 
-	return {
-		version,
-	};
+  const latest = versions[1]
+
+  return {
+    latest,
+  }
 }

@@ -23,14 +23,14 @@ export default defineConfig({
     nav: [
       {
         text: 'Versions',
-        items: [
-          { text: '2.3', link: '/2.3/' },
-          { text: '2.2', link: '/2.2/' },
-        ],
+        items: require('./navs/versions.json'),
       },
     ],
 
-    sidebar: require('./theme/sidemenu.json'),
+    sidebar: {
+      '/main/': require('./navs/sideMain.json'),
+      '/2.2/': require('./navs/side2_2.json'),
+    },
 
     footer: {
       copyright: 'Copyright © 2022. HPD Collaborative, Inc.',
