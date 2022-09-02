@@ -1,0 +1,12 @@
+{
+	"private": true,
+	"scripts": {
+		"dev": "vitepress dev docs",
+		"build": "vitepress build docs",
+		"serve": "vitepress serve docs"
+	},
+	"devDependencies": {
+		"vitepress": "^1.0.0-alpha.10",
+		"vue": "^3.2.37"
+	}
+}

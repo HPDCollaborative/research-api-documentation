@@ -1,0 +1,118 @@
+{
+  "/2.3/": [
+    {
+      "text": "Introduction",
+      "items": [{ "text": "What Is It?", "link": "/2.3/" }]
+    },
+    {
+      "text": "Container",
+      "collapsible": true,
+      "items": [
+        { "text": "Introduction", "link": "/2.3/container" },
+        { "text": "Accessories", "link": "/2.3/accessories" },
+        { "text": "Certifications", "link": "/2.3/certifications" },
+        { "text": "Company", "link": "/2.3/company" },
+        { "text": "General", "link": "/2.3/general" },
+        { "text": "Notes", "link": "/2.3/notes" },
+        { "text": "Parts", "link": "/2.3/parts" },
+        { "text": "Product", "link": "/2.3/product" },
+        { "text": "Reference", "link": "/2.3/reference" },
+        { "text": "Voc", "link": "/2.3/voc" }
+      ]
+    },
+    {
+      "text": "Content",
+      "collapsible": true,
+      "items": [
+        {
+          "text": "Introduction",
+          "link": "/2.3/content/"
+        },
+        {
+          "text": "Nested Materials",
+          "link": "/2.3/content/nested-materials/",
+          "items": [
+            {
+              "text": "Substances",
+              "link": "/2.3/content/nested-materials/substances/",
+              "items": [
+                { "text": "Hazards", "link": "/2.3/content/nested-materials/substances/hazards" },
+                { "text": "Listings", "link": "/2.3/content/nested-materials/substances/listings" }
+              ]
+            },
+            {
+              "text": "Materials",
+              "link": "/2.3/content/nested-materials/materials/",
+              "items": [
+                {
+                  "text": "Biological",
+                  "link": "/2.3/content/nested-materials/materials/special-conditions/biological"
+                },
+                {
+                  "text": "Geological",
+                  "link": "/2.3/content/nested-materials/materials/special-conditions/geological"
+                },
+                {
+                  "text": "Mixed Content",
+                  "link": "/2.3/content/nested-materials/materials/special-conditions/mixed-content"
+                },
+                {
+                  "text": "Electronics",
+                  "link": "/2.3/content/nested-materials/materials/special-conditions/electronics"
+                },
+                { "text": "Fasteners", "link": "/2.3/content/nested-materials/materials/special-conditions/fasteners" },
+                {
+                  "text": "Metal Alloys",
+                  "link": "/2.3/content/nested-materials/materials/special-conditions/metal-alloys"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "/2.2/": [
+    {
+      "text": "Introduction",
+      "items": [{ "text": "What Is It?", "link": "/2.2/" }]
+    },
+    {
+      "text": "Container",
+      "collapsible": true,
+      "items": [
+        { "text": "Introduction", "link": "/2.2/data/" },
+        { "text": "Accessories", "link": "/2.2/data/accessories" },
+        { "text": "Certifications", "link": "/2.2/data/certifications" },
+        { "text": "Company", "link": "/2.2/data/company" },
+        { "text": "General", "link": "/2.2/data/general" },
+        { "text": "Notes", "link": "/2.2/data/notes" },
+        { "text": "Parts", "link": "/2.2/data/parts" },
+        { "text": "Product", "link": "/2.2/data/product" },
+        { "text": "Reference", "link": "/2.2/data/reference" },
+        { "text": "Voc", "link": "/2.2/data/voc" }
+      ]
+    },
+    {
+      "text": "Content",
+      "collapsible": true,
+      "items": [
+        {
+          "text": "Introduction",
+          "link": "/2.2/content/"
+        },
+        {
+          "text": "Materials",
+          "link": "/2.2/content/materials/",
+          "items": [
+            {
+              "text": "Substances",
+              "link": "/2.2/content/materials/substances/",
+              "items": [{ "text": "Hazards", "link": "/2.2/content/materials/substances/hazards" }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
