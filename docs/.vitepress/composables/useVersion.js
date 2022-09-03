@@ -1,9 +1,5 @@
-export function useVersion() {
-  const versions = ['main', '2.2']
+import { version } from '../../../package.json'
 
-  const latest = versions[1]
+export const currentVersion = `v${version}`
 
-  return {
-    latest,
-  }
-}
+export const versions = [{ version: currentVersion }, { version: 'main', link: '/main/' }]

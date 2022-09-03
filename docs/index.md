@@ -1,12 +1,12 @@
 <script setup>
-  import { useVersion } from './.vitepress/composables/useVersion.js'
+  import { currentVersion, versions } from './.vitepress/composables/useVersion.js'
   import { useRouter } from 'vitepress'
-
-  const { latest } = useVersion()
 
   const router = useRouter()
 
-  router.go(`/${latest}/`)
+  const current = currentVersion.replace('v', '')
+
+  router.go(`/${current}/`)
   
 </script>
 

@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { currentVersion, versions } from './composables/useVersion.js'
 
 export default defineConfig({
   lang: 'en-US',
@@ -22,8 +23,24 @@ export default defineConfig({
 
     nav: [
       {
-        text: 'Versions',
-        items: require('./navs/versions.json'),
+        text: currentVersion,
+        items: [
+          {
+            text: 'Versions',
+            items: versions.map((i) =>
+              i.version === currentVersion
+                ? {
+                    text: `${i.version} (current)`,
+                    activeMatch: `/${i.version.replace('v', '')}/`, // always active
+                    link: `/${i.version.replace('v', '')}/`,
+                  }
+                : {
+                    text: i.version,
+                    link: i.link,
+                  }
+            ),
+          },
+        ],
       },
     ],
 
