@@ -5,7 +5,7 @@
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs",
-    "deploy": "./bin/deploy.sh"
+    "prod": "./bin/deploy.sh"
   },
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.10",
