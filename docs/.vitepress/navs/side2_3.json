@@ -7,16 +7,16 @@
     "text": "Container",
     "collapsible": true,
     "items": [
-      { "text": "Introduction", "link": "/2.3/container" },
-      { "text": "Accessories", "link": "/2.3/accessories" },
-      { "text": "Certifications", "link": "/2.3/certifications" },
-      { "text": "Company", "link": "/2.3/company" },
-      { "text": "General", "link": "/2.3/general" },
-      { "text": "Notes", "link": "/2.3/notes" },
-      { "text": "Parts", "link": "/2.3/parts" },
-      { "text": "Product", "link": "/2.3/product" },
-      { "text": "Reference", "link": "/2.3/reference" },
-      { "text": "Voc", "link": "/2.3/voc" }
+      { "text": "Introduction", "link": "/2.3/data/container" },
+      { "text": "Accessories", "link": "/2.3/data/accessories" },
+      { "text": "Certifications", "link": "/2.3/data/certifications" },
+      { "text": "Company", "link": "/2.3/data/company" },
+      { "text": "General", "link": "/2.3/data/general" },
+      { "text": "Notes", "link": "/2.3/data/notes" },
+      { "text": "Parts", "link": "/2.3/data/parts" },
+      { "text": "Product", "link": "/2.3/data/product" },
+      { "text": "Reference", "link": "/2.3/data/reference" },
+      { "text": "Voc", "link": "/2.3/data/voc" }
     ]
   },
   {
