@@ -7,7 +7,7 @@
     "text": "Container",
     "collapsible": true,
     "items": [
-      { "text": "Introduction", "link": "/2.3/data/container" },
+      { "text": "Introduction", "link": "/2.3/data/" },
       { "text": "Accessories", "link": "/2.3/data/accessories" },
       { "text": "Certifications", "link": "/2.3/data/certifications" },
       { "text": "Company", "link": "/2.3/data/company" },
