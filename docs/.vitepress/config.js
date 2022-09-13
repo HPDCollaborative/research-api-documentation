@@ -23,7 +23,7 @@ export default defineConfig({
 
     nav: [
       {
-        text: currentVersion,
+        text: `v${currentVersion}`,
         items: [
           {
             text: 'Versions',
@@ -31,8 +31,8 @@ export default defineConfig({
               i.version === currentVersion
                 ? {
                     text: `${i.version} (current)`,
-                    activeMatch: `/${i.version.replace('v', '')}/`, // always active
-                    link: `/${i.version.replace('v', '')}/`,
+                    activeMatch: `/${i.version}/`, // always active
+                    link: `/${i.version}/`,
                   }
                 : {
                     text: i.version,
@@ -45,7 +45,7 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/main/': require('./navs/sideMain.json'),
+      '/2.3/': require('./navs/side2_3.json'),
       '/2.2/': require('./navs/side2_2.json'),
     },
 

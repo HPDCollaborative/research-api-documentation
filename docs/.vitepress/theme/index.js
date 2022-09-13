@@ -1,7 +1,7 @@
-import DefaultTheme from 'vitepress/theme';
+import DefaultTheme from 'vitepress/theme'
 
-import './override.css';
+import './override.css'
 
 export default {
-	...DefaultTheme,
-};
+  ...DefaultTheme,
+}

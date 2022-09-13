@@ -1,7 +1,7 @@
 [
   {
     "text": "Introduction",
-    "items": [{ "text": "What Is It?", "link": "/main/" }]
+    "items": [{ "text": "Intended Purpose", "link": "/main/" }]
   },
   {
     "text": "Container",
@@ -28,13 +28,43 @@
         "link": "/main/content/"
       },
       {
-        "text": "Materials",
-        "link": "/main/content/materials/",
+        "text": "Nested Materials",
+        "link": "/main/content/nested-materials/",
         "items": [
           {
             "text": "Substances",
-            "link": "/main/content/materials/substances/",
-            "items": [{ "text": "Hazards", "link": "/main/content/materials/substances/hazards" }]
+            "link": "/main/content/nested-materials/substances/",
+            "items": [
+              { "text": "Hazards", "link": "/main/content/nested-materials/substances/hazards" },
+              { "text": "Listings", "link": "/main/content/nested-materials/substances/listings" }
+            ]
+          },
+          {
+            "text": "Materials",
+            "link": "/main/content/nested-materials/materials/",
+            "items": [
+              {
+                "text": "Biological",
+                "link": "/main/content/nested-materials/materials/special-conditions/biological"
+              },
+              {
+                "text": "Geological",
+                "link": "/main/content/nested-materials/materials/special-conditions/geological"
+              },
+              {
+                "text": "Mixed Content",
+                "link": "/main/content/nested-materials/materials/special-conditions/mixed-content"
+              },
+              {
+                "text": "Electronics",
+                "link": "/main/content/nested-materials/materials/special-conditions/electronics"
+              },
+              { "text": "Fasteners", "link": "/main/content/nested-materials/materials/special-conditions/fasteners" },
+              {
+                "text": "Metal Alloys",
+                "link": "/main/content/nested-materials/materials/special-conditions/metal-alloys"
+              }
+            ]
           }
         ]
       }

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DOCS_VERSIONS=(
-  main
+  2.3
   2.2
 )
 

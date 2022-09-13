@@ -1,5 +1,9 @@
-import { version } from '../../../package.json'
+import { current } from '../../../package.json'
 
-export const currentVersion = `v${version}`
+export const currentVersion = current
 
-export const versions = [{ version: currentVersion }, { version: 'main', link: '/main/' }]
+// prettier-ignore
+export const versions = [
+  { version: currentVersion },
+  { version: '2.2', link: '/2.2/' }
+]

@@ -1,10 +1,12 @@
 {
   "private": true,
-  "version": "2.2",
+  "version": "1.0.0",
+  "current": "2.3",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs",
+    "update": "./bin/update.sh",
     "prod": "./bin/deploy.sh"
   },
   "devDependencies": {
